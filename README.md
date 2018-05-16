@@ -7,7 +7,9 @@ Demo https://donnzh.github.io/simple-react-layout/
 
 Browser Compatibility : Chrome, Safari, Firefox
 
-Feature: Dyamic data rendering
+Features: 
+
+dynamic data rendering
 
 ![alt text](https://user-images.githubusercontent.com/18027513/40118100-4cdf2fdc-595c-11e8-953c-f6309e83e643.png)
 
