@@ -1,0 +1,14 @@
+.app-sidebar {
+    height: 100%;
+    width: 20%;
+    background-color: #2b3636;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    text-align: center;
+    transition: left .2s ease-in;
+}
+
+.app-sidebar-hidden {
+    left: -20%;
+}
