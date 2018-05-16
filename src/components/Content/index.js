@@ -15,9 +15,11 @@ export default class Content extends PureComponent {
                     (b.name === activeBlock ? '100%' : '0%') : `${100 / blocks.length}%`,
                 backgroundColor: b.color
               }}>
-            <h3>{b.name}</h3>
-            <p className={`content-block-subTitle ${(b.name === activeBlock ? "subTitle-actived" : "")}`}
-            >IS ACTIVE!</p>
+            <div className="content-block-inner">
+              <h3>{b.name}</h3>
+              <p className={`content-block-subTitle ${(b.name === activeBlock ? "subTitle-actived" : "")}`}
+              >IS ACTIVE!</p>
+            </div>
           </div>
       )
     })

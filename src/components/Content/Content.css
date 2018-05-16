@@ -32,7 +32,6 @@
 }
 
 .content-block {
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,11 +41,11 @@
     transition: height .2s ease-in;
 }
 
-.content-block-subTitle {
-    position: absolute;
+.content-block-inner {
     margin-top: 30px;
-    left: 0;
-    right: 0;
+}
+
+.content-block-subTitle {
     opacity: 0;
     transition: 0.1s ease-out;
     font-size: 14px;
