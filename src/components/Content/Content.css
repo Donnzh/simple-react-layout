@@ -19,16 +19,20 @@
     align-items: center;
     cursor: pointer;
     justify-content: center;
+    border: none;
     border-radius: 50%;
     outline: none;
 }
 
 .toggle-siderbar-button span {
     position: absolute;
-    bottom: 8px;
+    bottom: 9px;
+    left: 0;
+    right: 0;
 }
 
 .content-block {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,9 +44,12 @@
 
 .content-block-subTitle {
     position: absolute;
-    margin-top: 25px;
+    margin-top: 30px;
+    left: 0;
+    right: 0;
     opacity: 0;
     transition: 0.1s ease-out;
+    font-size: 14px;
     font-weight: 300;
 }
 
