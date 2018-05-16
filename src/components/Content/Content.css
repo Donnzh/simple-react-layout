@@ -1,0 +1,50 @@
+.app-content {
+    position: relative;
+    transition: margin-left .2s ease-in;
+    height: 90%;
+    margin-left: 0;
+}
+
+.app-content-actived {
+    margin-left: 20%;
+}
+
+.app-content .toggle-siderbar-button {
+    position: absolute;
+    background: white;
+    padding: 15px;
+    left: 5px;
+    top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    outline: none;
+}
+
+.toggle-siderbar-button span {
+    position: absolute;
+}
+
+.content-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    overflow: hidden;
+    transition: height .2s ease-in;
+}
+
+.content-block-subTitle {
+    position: absolute;
+    margin-top: 25px;
+    opacity: 0;
+    transition: 0.1s ease-out;
+    font-weight: 300;
+}
+
+.content-block .subTitle-actived {
+    opacity: 1;
+    transition: 0.6s ease-in;
+}
