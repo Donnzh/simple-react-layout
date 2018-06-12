@@ -15,10 +15,10 @@
     padding: 15px;
     left: 5px;
     top: 5px;
-    display: flex;
-    align-items: center;
+    /*display: flex;*/
+    /*align-items: center;*/
     cursor: pointer;
-    justify-content: center;
+    /*justify-content: center;*/
     border: none;
     border-radius: 50%;
     outline: none;
@@ -26,9 +26,11 @@
 
 .toggle-siderbar-button span {
     position: absolute;
-    bottom: 9px;
+    /*bottom: 9px;*/
     left: 0;
     right: 0;
+    top: 0;
+    bottom: 0;
 }
 
 .content-block {
